@@ -260,26 +260,26 @@ header div.scroll img {
   filter: drop-shadow(-1px 8px 4px #020202) drop-shadow(4px -0.3px 4px #4d4d53);
 }
 /****PRESENTATION****/
-section.presentation {
+.presentation {
   padding: 100px 20px;
   position: relative;
 }
-section.presentation h2 {
+.presentation h2 {
   text-align: center;
 }
-section.presentation .texte h4 {
+.presentation .texte h4 {
   position: relative;
   padding-top: 50px;
 }
-section.presentation .texte p {
+.presentation .texte p {
   padding-top: 30px;
   font-size: 20px;
   text-shadow: -1px 8px 4px #0a0b26, 4px -0.3px 4px #2e3065;
 }
-section.presentation .competences h4 {
+.presentation .competences h4 {
   padding-top: 50px;
 }
-section.presentation .competences .pictos .infographie {
+.presentation .competences .pictos .infographie {
   padding-top: 30px;
   display: flex;
   justify-content: space-around;
@@ -287,7 +287,7 @@ section.presentation .competences .pictos .infographie {
   flex-wrap: wrap;
   position: relative;
 }
-section.presentation .competences .pictos .code {
+.presentation .competences .pictos .code {
   padding-top: 30px;
   display: flex;
   justify-content: space-around;
@@ -295,16 +295,16 @@ section.presentation .competences .pictos .code {
   flex-wrap: wrap;
   position: relative;
 }
-section.presentation .competences .pictos:before {
+.presentation .competences .pictos:before {
   content: url(../img/fleur-web.png);
   position: absolute;
   top: 180px;
   right: 100px;
 }
-section.presentation .competences .pictos img {
+.presentation .competences .pictos img {
   height: 50px;
 }
-section.presentation .animation .vague {
+.presentation .animation .vague {
   position: relative;
   left: 80px;
   width: 200px;
@@ -312,7 +312,7 @@ section.presentation .animation .vague {
   background: transparent;
   border-radius: 50%;
 }
-section.presentation .animation .vague span {
+.presentation .animation .vague span {
   position: absolute;
   top: 0;
   left: 0;
@@ -325,7 +325,7 @@ section.presentation .animation .vague span {
   animation: anim-vague 5s linear infinite;
   animation-delay: calc(-1s * var(--i));
 }
-section.presentation .animation .bateau {
+.presentation .animation .bateau {
   position: relative;
   top: -280px;
   align-content: center;
@@ -333,75 +333,75 @@ section.presentation .animation .bateau {
   animation: anim-bateau 3s infinite alternate ease-in-out;
 }
 /*****WEB*****/
-div.web {
+.web {
   position: relative;
   top: -200px;
   text-align: center;
 }
-div.web h2 {
+.web h2 {
   display: inline-block;
   position: relative;
 }
-div.web h2:before {
+.web h2:before {
   content: url(../img/fleur-web.png);
   right: -110px;
 }
-div.web .slide {
+.web .slide {
   padding: 100px 100px;
   justify-content: space-between;
 }
-div.web .slide article {
+.web .slide article {
   padding: 15px 30px;
   border-radius: 30px;
   box-shadow: -1px 8px 4px #020202, 4px -0.3px 4px #4d4d53;
   margin: 0 40px;
 }
-div.web .slide article h4 {
+.web .slide article h4 {
   color: #ba905b;
   padding-bottom: 10px;
   font-size: 20px;
   text-transform: uppercase;
   text-shadow: -1px 8px 4px #0a0b26, 4px -0.3px 4px #2e3065;
 }
-div.web .slide article img {
+.web .slide article img {
   width: 100%;
   border-radius: 20px;
 }
-div.web .slide article .choice {
+.web .slide article .choice {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-top: 10px;
 }
-div.web .slide article .choice a {
+.web .slide article .choice a {
   color: #ba905b;
   cursor: pointer;
   text-shadow: -1px 8px 4px #0a0b26, 4px -0.3px 4px #2e3065;
   transition: all 0.3s;
 }
-div.web .slide article .choice a:hover {
+.web .slide article .choice a:hover {
   text-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.08), inset -4px -4px 6px -1px rgba(2, 2, 2, 0.7), -0.5px -0.5px 0px rgba(0, 0, 0, 0.15), 0 12px 10px -10px rgba(0, 0, 0, 0.05);
 }
-div.web .slide .slick-list {
+.web .slide .slick-list {
   padding: 20px 20px !important;
 }
-div.web .slide .slick-prev {
+.web .slide .slick-prev {
   left: 10px;
 }
-div.web .slide .slick-prev:before {
+.web .slide .slick-prev:before {
   display: block;
   content: url(../img/scroll-left.svg);
   width: 120px;
 }
-div.web .slide .slick-next {
+.web .slide .slick-next {
   right: 110px;
 }
-div.web .slide .slick-next:before {
+.web .slide .slick-next:before {
   display: block;
   content: url(../img/scroll-right.svg);
   width: 120px;
 }
-div.web .koi img {
+.web .koi img {
   transform: rotate(-45deg);
 }
 /*****PRINT*****/
